@@ -1,0 +1,97 @@
+form.diff-form select {
+    position: relative;
+    top: 1;
+}
+
+form.diff-form input.diff-form-submit {
+    position: relative;
+}
+
+.issue-diff-area {
+    background-color: #E8E8E8;
+}
+
+form.diff-form .issue-diff-separator {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    padding: 10% 0;
+    left: 2;
+    position: relative;
+}
+
+.issue-diff-area tr td.Right {
+    text-align: left;
+}
+
+.Differences {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+
+.Differences thead th {
+    display: none;
+}
+.Differences tbody th {
+    display: none;
+}
+
+.Differences td {
+    padding: 1px 2px;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+}
+
+.DifferencesSideBySide .ChangeInsert td.Left {
+    background: #dfd;
+}
+
+.DifferencesSideBySide .ChangeInsert td.Right {
+    background: #cfc;
+}
+
+.DifferencesSideBySide .ChangeDelete td.Left {
+    background: #f88;
+}
+
+.DifferencesSideBySide .ChangeDelete td.Right {
+    background: #faa;
+}
+
+.DifferencesSideBySide .ChangeReplace .Left {
+    background: #fe9;
+}
+
+.DifferencesSideBySide .ChangeReplace .Right {
+    background: #fd8;
+}
+
+.Differences ins, .Differences del {
+    text-decoration: none;
+}
+
+.DifferencesSideBySide .ChangeReplace ins, .DifferencesSideBySide .ChangeReplace del {
+    background: #fc0;
+}
+
+.Differences .Skipped {
+    background: #f7f7f7;
+}
+
+.DifferencesInline .ChangeReplace .Left,
+.DifferencesInline .ChangeDelete .Left {
+    background: #fdd;
+}
+
+.DifferencesInline .ChangeReplace .Right,
+.DifferencesInline .ChangeInsert .Right {
+    background: #dfd;
+}
+
+.DifferencesInline .ChangeReplace ins {
+    background: #9e9;
+}
+
+.DifferencesInline .ChangeReplace del {
+    background: #e99;
+}
