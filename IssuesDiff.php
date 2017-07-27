@@ -16,9 +16,9 @@ class IssuesDiffPlugin extends MantisPlugin {
         $this->description = plugin_lang_get("description");
         $this->page = '';
 
-        $this->version = "0.1";
+        $this->version = "1.0";
         $this->requires = array(
-            "MantisCore" => "1.2.9",
+            "MantisCore" => "1.2.11",
         );
 
         $this->author = "Samir Aguiar";

@@ -43,11 +43,11 @@ if ($f_bug_id) {
 else if ($f_bugnote_id) {
     $t_bug_id = bugnote_get_field($f_bugnote_id, 'bug_id');
     $t_bug_data = bug_get($t_bug_id, true);
-    $t_bug_revisions = array_reverse(bug_revision_list($t_bug_id, REV_ANY, $f_bugnote_id) , true);
+    $t_bug_revisions = bug_revision_list($t_bug_id, REV_ANY, $f_bugnote_id);
     $t_title = lang_get('bugnote') . ' ' . $f_bugnote_id;
 }
 else if ($f_rev_id) {
-    $t_bug_revisions = array_reverse(bug_revision_like($f_rev_id) , true);
+    $t_bug_revisions = bug_revision_like($f_rev_id);
 
     if (count($t_bug_revisions) < 1) {
         trigger_error(ERROR_GENERIC, ERROR);
