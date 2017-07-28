@@ -1,7 +1,7 @@
 <?php
 
 # Copyright (C) 2017 Samir Aguiar for Intra2net AG - www.intra2net.com
-# Licensed under the MIT license
+# Licensed under GPL v3
 
 $s_plugin_IssuesDiff_title = 'Issues Diff';
 $s_plugin_IssuesDiff_description = 'Shows a visual diff between issues revisions';
