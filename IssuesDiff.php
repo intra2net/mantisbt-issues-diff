@@ -16,7 +16,7 @@ class IssuesDiffPlugin extends MantisPlugin {
         $this->description = plugin_lang_get("description");
         $this->page = '';
 
-        $this->version = "1.0";
+        $this->version = "1.1";
         $this->requires = array(
             "MantisCore" => "2.5.0",
         );
