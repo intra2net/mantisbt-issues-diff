@@ -6,7 +6,7 @@
  * You should have received a copy of the GNU General Public License
  * along with IssuesDiff.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @copyright Copyright (C) 2017 Samir Aguiar for Intra2net AG - www.intra2net.com
+ * @copyright Copyright (C) 2020 Intra2net AG - www.intra2net.com
  */
 
 class IssuesDiffPlugin extends MantisPlugin {
@@ -21,9 +21,9 @@ class IssuesDiffPlugin extends MantisPlugin {
             "MantisCore" => "1.2.11",
         );
 
-        $this->author = "Samir Aguiar";
-        $this->contact = "samirjaguiar@gmail.com";
-        $this->url = "https://github.com/samiraguiar/issues-diff";
+        $this->author = "Intra2net AG";
+        $this->contact = "opensource@intra2net.com";
+        $this->url = "https://github.com/intra2net/issues-diff";
     }
 
     public function hooks() {

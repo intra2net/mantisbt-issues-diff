@@ -1,3 +1,12 @@
+/**
+ * IssuesDiff - a MantisBT plugin that adds a visual diff between revisions
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with IssuesDiff.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @copyright Copyright (C) 2020 Intra2net AG - www.intra2net.com
+ */
+
 function appendAnchor(cellElement, bug_view_link) {
     var anchor = document.createElement("A");
     anchor.text = linkText;

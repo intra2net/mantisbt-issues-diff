@@ -1,7 +1,13 @@
 <?php
 
-# Copyright (C) 2017 Samir Aguiar for Intra2net AG - www.intra2net.com
-# Licensed under GPL v3
+/**
+ * IssuesDiff - a MantisBT plugin that adds a visual diff between revisions
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with IssuesDiff.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @copyright Copyright (C) 2020 Intra2net AG - www.intra2net.com
+ */
 
 $s_plugin_IssuesDiff_title = 'Issues Diff';
 $s_plugin_IssuesDiff_description = 'Shows a visual diff between issues revisions';

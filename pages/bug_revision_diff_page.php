@@ -6,9 +6,7 @@
  * You should have received a copy of the GNU General Public License
  * along with IssuesDiff.  If not, see <http://www.gnu.org/licenses/>.
  *
- * Parts of this code were taken from MantisBT `bug_revision_view_page.php`.
- * 
- * @copyright Copyright (C) 2017 Samir Aguiar for Intra2net AG - www.intra2net.com
+ * @copyright Copyright (C) 2020 Intra2net AG - www.intra2net.com
  */
 
 echo '<link rel="stylesheet" type="text/css" href="', plugin_file( 'css/diff_style.css' ), '"/>';
