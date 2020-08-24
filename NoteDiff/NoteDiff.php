@@ -1,29 +1,29 @@
 <?php
 
-# IssuesDiff - a MantisBT plugin that adds a visual diff between revisions
-#
-# You should have received a copy of the GNU General Public License
-# along with IssuesDiff.  If not, see <http://www.gnu.org/licenses/>.
+ /**
+  * Note Diff - a MantisBT plugin to diff revisions of notes and issue descriptions
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with Note Diff.  If not, see <http://www.gnu.org/licenses/>.
+  *
+  * @copyright Copyright (C) 2020 Intra2net AG - www.intra2net.com
+  */
 
-/**
- * @copyright Copyright (C) 2017 Samir Aguiar for Intra2net AG - www.intra2net.com
- */
-
-class IssuesDiffPlugin extends MantisPlugin {
+class NoteDiffPlugin extends MantisPlugin {
 
     public function register() {
         $this->name = plugin_lang_get("title");
         $this->description = plugin_lang_get("description");
         $this->page = '';
 
-        $this->version = "1.1";
+        $this->version = "2.0.0";
         $this->requires = array(
-            "MantisCore" => "2.5.0",
+            "MantisCore" => "2.1.0",
         );
 
-        $this->author = "Samir Aguiar";
-        $this->contact = "samirjaguiar@gmail.com";
-        $this->url = "https://github.com/samiraguiar/issues-diff";
+        $this->author = "Intra2net AG";
+        $this->contact = "opensource@intra2net.com";
+        $this->url = "https://github.com/intra2net/mantisbt-note-diff";
     }
 
     public function hooks() {

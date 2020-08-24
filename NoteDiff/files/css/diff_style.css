@@ -1,3 +1,12 @@
+/**
+ * Note Diff - a MantisBT plugin to diff revisions of notes and issue descriptions
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Note Diff.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @copyright Copyright (C) 2020 Intra2net AG - www.intra2net.com
+ */
+
 form.diff-form select {
     position: relative;
     top: 1;
@@ -7,18 +16,18 @@ form.diff-form input.diff-form-submit {
     position: relative;
 }
 
-.issue-diff-area {
+.note-diff-area {
     background-color: #F9F9F9;
 }
 
-form.diff-form .issue-diff-separator {
+form.diff-form .note-diff-separator {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     padding: 10% 0;
     left: 2;
     position: relative;
 }
 
-.issue-diff-area tr td.Right {
+.note-diff-area tr td.Right {
     text-align: left;
 }
 

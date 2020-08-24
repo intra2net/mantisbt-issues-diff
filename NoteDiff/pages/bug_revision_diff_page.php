@@ -1,13 +1,12 @@
 <?php
-# IssuesDiff - a MantisBT plugin that adds a visual diff between revisions
-#
-# You should have received a copy of the GNU General Public License
-# along with IssuesDiff.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright Copyright (C) 2017 Samir Aguiar for Intra2net AG - www.intra2net.com
+ * Note Diff - a MantisBT plugin to diff revisions of notes and issue descriptions
  *
- * Parts of this code were taken from MantisBT `bug_revision_view_page.php`.
+ * You should have received a copy of the GNU General Public License
+ * along with Note Diff.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @copyright Copyright (C) 2020 Intra2net AG - www.intra2net.com
  */
 
 require_once( 'core.php' );
@@ -138,7 +137,7 @@ function show_diff($t_prev_revision, $t_last_revision)
                 echo $t_label . ' ' . plugin_lang_get('diff');
             ?>
         </th>
-        <td colspan="3" class="issue-diff-area">
+        <td colspan="3" class="note-diff-area">
             <?php
                 echo $diff->render($renderer);
             ?>
@@ -233,7 +232,7 @@ function get_options_list($revisions, $selected_id) {
                                     <select name="prev">
                                         <?php echo get_options_list($t_bug_revisions, $previous_rev_id); ?>
                                     </select>
-                                    <span class="issue-diff-separator"> ... </span>
+                                    <span class="note-diff-separator"> ... </span>
                                     <select name="last">
                                         <?php
                                             reset($t_bug_revisions);
